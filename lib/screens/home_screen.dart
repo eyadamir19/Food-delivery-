@@ -20,8 +20,8 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       backgroundColor: Colors.grey[100],
       appBar: AppBar(
-        title: const Text("Food Genie"),
-        backgroundColor: Colors.deepOrangeAccent,
+        title: const Text("Fel Sare3"),
+        backgroundColor: Colors.deepPurple.shade400,
         centerTitle: true,
         leading: IconButton(
             onPressed: () {}, icon: const Icon(Icons.account_circle, size: 30)),
@@ -50,7 +50,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(30),
                       borderSide: const BorderSide(
-                          width: 0.8, color: Colors.deepOrangeAccent)),
+                          width: 0.8, color: Colors.deepPurpleAccent)),
                   hintText: "Search Food or Restaurants",
                   prefixIcon: const Icon(Icons.search),
                   suffixIcon: IconButton(

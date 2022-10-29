@@ -21,7 +21,7 @@ class _CartScreenState extends State<CartScreen> {
       appBar: AppBar(
         title: Text("Cart (${currentUser.cart.length})"),
         centerTitle: true,
-        backgroundColor: Colors.deepOrangeAccent,
+        backgroundColor: Colors.deepPurple.shade400,
       ),
       body: ListView.separated(
           itemBuilder: (BuildContext context, int index) {
@@ -65,9 +65,9 @@ class _CartScreenState extends State<CartScreen> {
                             fontWeight: FontWeight.bold),
                       ),
                       Text(
-                        "\$${totalPrice.toStringAsFixed(2)}",
+                        "\EGP ${totalPrice.toStringAsFixed(2)}",
                         style: TextStyle(
-                            color: Colors.green.shade700,
+                            color: Colors.green.shade800,
                             fontSize: 18,
                             fontWeight: FontWeight.bold),
                       ),
@@ -83,7 +83,7 @@ class _CartScreenState extends State<CartScreen> {
           itemCount: currentUser.cart.length + 1),
       bottomSheet: Container(
         height: 80,
-        decoration: BoxDecoration(color: Colors.deepOrangeAccent, boxShadow: [
+        decoration: BoxDecoration(color: Colors.deepPurple.shade400, boxShadow: [
           BoxShadow(blurRadius: 6, color: Colors.black26, offset: Offset(0, -1))
         ]),
         child: Center(
@@ -150,7 +150,7 @@ class _CartScreenState extends State<CartScreen> {
                               Text(
                                 "-",
                                 style: TextStyle(
-                                    color: Colors.deepOrangeAccent,
+                                    color: Colors.deepPurple.shade400,
                                     fontSize: 18,
                                     fontWeight: FontWeight.w600),
                               ),
@@ -166,7 +166,7 @@ class _CartScreenState extends State<CartScreen> {
                               Text(
                                 "+",
                                 style: TextStyle(
-                                    color: Colors.deepOrangeAccent,
+                                    color: Colors.deepPurple.shade400,
                                     fontSize: 18,
                                     fontWeight: FontWeight.w600),
                               ),

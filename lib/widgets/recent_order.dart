@@ -99,7 +99,7 @@ class RecentOrders extends StatelessWidget {
             margin: const EdgeInsets.only(right: 15),
             width: 48,
             decoration: BoxDecoration(
-                color: Colors.deepOrangeAccent,
+                color: Colors.deepPurple.shade400,
                 borderRadius: BorderRadius.circular(30)),
             child: IconButton(
                 onPressed: () {},

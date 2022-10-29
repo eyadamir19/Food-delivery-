@@ -6,9 +6,4 @@ void main() {
     debugShowCheckedModeBanner: false,
     home: HomeScreen(),
   ));
-  //eyad amir
-  // bassem
-  /////////////
-  //////////////\
-  ////////////////
 }

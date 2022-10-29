@@ -44,7 +44,7 @@ class _RestaurantScreenState extends State<RestaurantScreen> {
                     onPressed: () {},
                     icon: Icon(Icons.favorite),
                     iconSize: 35,
-                    color: Colors.deepOrangeAccent,
+                    color: Colors.deepPurple.shade400,
                   )
                 ],
               ),
@@ -64,7 +64,7 @@ class _RestaurantScreenState extends State<RestaurantScreen> {
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
                   ),
                   Text(
-                    "0.2 miles away",
+                    "3 killo away",
                     style: TextStyle(fontSize: 16),
                   )
                 ],
@@ -100,7 +100,7 @@ class _RestaurantScreenState extends State<RestaurantScreen> {
                   splashColor: Colors.grey,
                   elevation: 4,
                   hoverElevation: 10,
-                  color: Colors.deepOrangeAccent,
+                  color: Colors.deepPurple.shade400,
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(12)),
                   onPressed: () {},
@@ -112,7 +112,7 @@ class _RestaurantScreenState extends State<RestaurantScreen> {
                   splashColor: Colors.grey,
                   elevation: 4,
                   hoverElevation: 10,
-                  color: Colors.deepOrangeAccent,
+                  color: Colors.deepPurple.shade400,
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(12)),
                   onPressed: () {},
@@ -185,7 +185,7 @@ class _RestaurantScreenState extends State<RestaurantScreen> {
                     fontWeight: FontWeight.w600),
               ),
               Text(
-                "\$${menuItems.price}",
+                "\EGP ${menuItems.price}",
                 style: TextStyle(
                     color: Colors.white,
                     fontSize: 18,
@@ -199,7 +199,7 @@ class _RestaurantScreenState extends State<RestaurantScreen> {
               child: Container(
                 // width: 48,
                 decoration: BoxDecoration(
-                    color: Colors.deepOrangeAccent,
+                    color: Colors.deepPurple.shade400,
                     borderRadius: BorderRadius.circular(30)),
                 child: IconButton(
                     onPressed: () {},
