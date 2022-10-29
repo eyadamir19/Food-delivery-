@@ -1,4 +1,4 @@
-# _food_delivery_ui
+# food_delivery
 
 A new Flutter project.
 
